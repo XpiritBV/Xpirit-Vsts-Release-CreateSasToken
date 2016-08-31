@@ -1,1 +1,1 @@
-Please visit [this blogpost](https://pascalnaber.wordpress.com/2016/07/27/vsts-task-to-deploy-appsettings-and-connectionstrings-to-an-azure-webapp/) for more information.
+Please visit [this blogpost](https://pascalnaber.wordpress.com/2016/08/31/vsts-task-to-create-a-sas-token/) for more information.
