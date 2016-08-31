@@ -1,0 +1,67 @@
+{
+  "manifestVersion": 1,
+  "id": "PascalNaber-Xpirit-CreateSasToken",
+  "name": "Create SAS Token",
+  "version": "1.0.40",
+  "publisher": "pascalnaber",
+  "public": true,
+  "targets": [
+    {
+      "id": "Microsoft.VisualStudio.Services"
+    }
+  ],
+  "description": "Release task",
+  "categories": [
+    "Build and release"
+  ],
+  "tags": [
+    "Storage",
+    "Sas",
+    "Token",
+    "SasToken"   
+  ],
+  "content": {
+    "details": {
+      "path": "Xpirit.Vsts.Release.SasToken.Extension/readme.md"
+    },
+    "license": {
+      "path": "Xpirit.Vsts.Release.SasToken.Extension/license.txt"
+    }
+  },
+  "links": {
+    "getstarted": {
+      "uri": "https://github.com/XpiritBV/Xpirit-Vsts-Release-CreateSasToken"
+    },
+    "support": {
+      "uri": "https://github.com/XpiritBV/Xpirit-Vsts-Release-CreateSasToken"
+    }
+  },
+
+
+
+  "branding": {
+    "color": "rgb(36, 43, 50)",
+    "theme": "dark"
+  },
+  "icons": {
+    "default": "Xpirit.Vsts.Release.SasToken.Extension/Images/Icon128.png"
+  },
+  "files": [
+    {
+      "path": "Xpirit.Vsts.Release.SasToken"
+    }
+  ],
+
+  "contributions": [
+    {
+      "id": "Xpirit-Vsts-Release-SasToken",
+      "type": "ms.vss-distributed-task.task",
+      "targets": [
+        "ms.vss-distributed-task.tasks"
+      ],
+      "properties": {
+        "name": "Xpirit.Vsts.Release.SasToken"
+      }
+    }
+  ]
+}
