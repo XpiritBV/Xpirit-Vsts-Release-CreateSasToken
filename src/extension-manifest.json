@@ -2,7 +2,7 @@
   "manifestVersion": 1,
   "id": "PascalNaber-Xpirit-CreateSasToken",
   "name": "Create SAS Token",
-  "version": "1.0.40",
+  "version": "1.0.41",
   "publisher": "pascalnaber",
   "public": true,
   "targets": [
